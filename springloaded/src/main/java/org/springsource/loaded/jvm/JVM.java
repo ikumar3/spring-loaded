@@ -28,8 +28,9 @@ import org.springsource.loaded.ri.ReflectiveInterceptor;
 /**
  * Utility class containing operations that are "JVM" specific and may need porting when changing JVMs.
  *
- * @author Kris De Volder
+ * @author IK
  * @since 0.5.0
+ * 
  */
 public class JVM {
 
@@ -62,7 +63,6 @@ public class JVM {
 	private static Field jlrFieldRootField;
 
 	private static Method jlrFieldCopy;
-
 	static {
 		try {
 			jlrFieldCopy = Field.class.getDeclaredMethod("copy");
