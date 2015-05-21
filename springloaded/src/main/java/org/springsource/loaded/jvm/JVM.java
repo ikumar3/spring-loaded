@@ -28,7 +28,7 @@ import org.springsource.loaded.ri.ReflectiveInterceptor;
 /**
  * Utility class containing operations that are "JVM" specific and may need porting when changing JVMs.
  *
- * @author IK
+ * @author IK - IK
  * @since 0.5.0
  * 
  */
